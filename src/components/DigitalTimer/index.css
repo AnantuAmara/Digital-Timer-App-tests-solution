@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+.timer-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-running-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.timer-container {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pause-play-reset-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pause-or-play-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.icon-text-container {
+  display: flex;
+  flex-direction: row;
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  margin-left: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.timer-limit-control-container {
+  display: flex;
+  flex-direction: column;
+}
+.plus-and-minus-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.limit-control-button {
+  background-color: transparent;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.limit-control-text {
+  text-align: center;
+  background-color: #00d9f5;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  width: 100px;
+  border-radius: 9px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.set-timer-text {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+}
